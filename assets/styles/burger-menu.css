@@ -6,7 +6,10 @@
 .marquee {
     position: absolute;
     bottom: 0;
-    font-size: 35px;
+    font-size: 70px;
+    border-top: 1px solid white; /* Ajoute une ligne blanche au-dessus */
+    border-bottom: 1px solid white; /* Ajoute une ligne blanche en-dessous */
+
     .marquee__inner {
         display: flex;
         gap: 40px;
